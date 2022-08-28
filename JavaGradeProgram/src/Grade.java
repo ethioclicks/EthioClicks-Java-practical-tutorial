@@ -47,9 +47,10 @@ public class Grade {
                                                 System.out.println("Grade D");
                                             } else {
                                                 if (mark <40 && mark >=0)
-                                                System.out.println("Failed! Grade F");
-                                            } else {
-                                                System.out.println("Invalid Input");
+                                                    System.out.println("Failed! Grade F");
+                                                else {
+                                                    System.out.println("Invalid Input");
+                                                }
                                             }
                                         }
                                     }
